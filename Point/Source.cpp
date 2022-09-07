@@ -11,10 +11,10 @@ public:
         x = 0;
         y = 0;
     }
-    Point(int x, int y)
+    Point(int _x, int _y)
     {
-        x = x;
-        y = y;
+        x = _x;
+        y = _y;
     }
 };
 
