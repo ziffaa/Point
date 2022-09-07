@@ -11,10 +11,26 @@ public:
         x = 0;
         y = 0;
     }
-    Point(int x, int y)
+    Point(int _x, int _y)
     {
-        x = x;
-        y = y;
+        x = _x;
+        y = _y;
+    }
+    int getX()
+    {
+        return x;
+    }
+    int getY()
+    {
+        return y;
+    }
+    void setX(int _x)
+    {
+        x = _x;
+    }
+    void setY(int _y)
+    {
+        y = _y;
     }
 };
 
